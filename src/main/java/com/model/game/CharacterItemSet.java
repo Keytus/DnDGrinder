@@ -146,7 +146,7 @@ public class CharacterItemSet {
                     else itemSet[SetSlot.MainHand.ordinal()] = newItem;
                 }
             }
-            case default -> throw new Exception("This item " + newItem.getItemName() + " cannot be equipped");
+//            case default -> throw new Exception("This item " + newItem.getItemName() + " cannot be equipped");
         }
 
         return oldItems;
